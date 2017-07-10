@@ -27,7 +27,8 @@ sleep 2
 sshpass -f <(printf '%s\n' mt85Wood) ssh root@$MACHINE <<'ENDSSH'
 sleep 2
 ap_upgrade.sh /tmp/ap10*.dist
-
+sleep 2
+reboot
 ENDSSH
 
 

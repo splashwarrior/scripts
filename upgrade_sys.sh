@@ -49,6 +49,10 @@ do
     update_comp $name $path
 done   
 
+#Sometimes the network db needs to be upgraded.
+sudo /opt/ulp/network-db/schema-tool upgrade
+
+
 #Go back to old dir
 cd -
 
