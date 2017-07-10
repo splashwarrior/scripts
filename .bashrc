@@ -164,6 +164,7 @@ function sscp_fnc()
 {
     sshpass -p "mt85Wood" scp "$@" 
 }
+alias mall="m all all"
 
 function sync_build()
 {
