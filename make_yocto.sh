@@ -5,7 +5,7 @@ export PATH=/home/siagrawal:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin
 export SSH_AGENT_PID=3321
 export SSH_AUTH_SOCK=/run/user/1373/keyring/ssh
 
-BUILD_ROOT=/home/siagrawal/source/ap6_yocto
+BUILD_ROOT=/home/siagrawal/source/yocto_3.1.6
 TARGET=$1
 ALL=$2
 
